@@ -1,0 +1,150 @@
+.searchbar-container {
+  /* width: 1439px; */
+  /* height: 200px; */
+  padding: 32px 100px 32px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px 0px #00000029;
+}
+
+.search-fields-container {
+  /* width: 1239px; */
+  /* height: 56px; */
+  display: flex;
+  gap: 24px;
+  /* top: 23px; */
+  /* left: 101px; */
+  /* display: flex;
+  justify-content: space-between; */
+  /* position: relative; */
+}
+.search-input-field,
+.property-type-input-field {
+  width: 606px;
+  height: 56px;
+  padding: 16px 24px 16px 24px;
+  border-radius: 4px;
+  border: 1px;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+  border: 1px solid #bebebe;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.property-type-input-field {
+  width: 292.5px;
+  /* //styleName: Desktop/P2; */
+font-family:'Ubuntu';
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+
+.search-icon {
+  width: 17.49px;
+  height: 17.49px;
+}
+
+.search-input-field input {
+  width: 500.51px;
+  height: 22px;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  border: none;
+}
+
+.breadcrumb-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.property-type-search-filter-container {
+  width: 292px;
+  height: 56px;
+  position: relative;
+}
+
+.dropdown-grey-icon {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.search-filters-container {
+  /* width: 1239px; */
+  /* height: 56px; */
+  /* top: 23px; */
+  /* left: 101px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.more-filter-container {
+  width: 125px;
+  height: 38px;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.more-filters-text {
+  /* width: 85px; */
+  height: 22px;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #595959;
+  border-bottom: 1px solid #595959;
+}
+
+.filter-dropdown-icon {
+  width: 16px;
+  height: 16px;
+  padding: 5.33px 3.33px 5.33px 3.33px;
+  /* angle: 180 deg */
+}
+
+.filter-btn {
+  width: 157px;
+  height: 56px;
+  padding: 16px 55px 16px 55px;
+
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  background: #1a295b;
+  color: white;
+  border: none;
+  position: absolute;
+  right: 0;
+}
+
+.filter-btn-text {
+  width: 47px;
+  height: 22px;
+  /* //styleName: Desktop/P2; */
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}

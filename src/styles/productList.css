@@ -1,0 +1,379 @@
+.product-list-main-container {
+  width: 1439px;
+  height: 1173px;
+  padding: 32px 100px 32px 100px;
+  display: flex;
+  gap: 8px;
+  box-sizing: border-box;
+}
+.product-list-inner-container {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.product-list-header {
+  width: 1239px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list-heading {
+  width: 225px;
+  height: 32px;
+  font-family: "Ubuntu";
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0;
+}
+
+.headers-and-filters {
+  width: 245.27px;
+  height: 38px;
+  gap: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-filter-main-container {
+  width: 181.27px;
+  height: 38px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.sort-icon-text-container {
+  width: 84.14px;
+  height: 22px;
+  width: 84.14px;
+  height: 22px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  /* border: 1.5px solid #212121; */
+  /* padding: 0px, 0px, 0px, 0px */
+}
+
+.sort-text {
+  width: 54px;
+  height: 22px;
+  top: 8px;
+  left: 46.14px;
+  /* position: relative; */
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.sort-key-value-container {
+  width: 42px;
+  height: 22px;
+  top: 8px;
+  left: 108.14px;
+  color: #595959;
+
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.product-list-container {
+  width: 1239px;
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.list-icon-container {
+  width: 24px;
+  height: 24px;
+}
+
+.product-card {
+  position: relative;
+  width: 381px;
+  height: 449px;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0px 3px 6px 0px #00000029;
+}
+
+.card-image {
+  width: 381px;
+  height: 194px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.share-icon {
+  position: absolute;
+  top: 11.09px;
+  right: 11.13px;
+  cursor: pointer;
+}
+
+.share-icon img {
+  width: 38px;
+  height: 38px;
+}
+
+.slider {
+  width: 96.67px;
+  height: 7.09px;
+  position: absolute;
+  top: 175px;
+  left: 271.28px;
+}
+
+.card-details {
+  width: 381px;
+  height: 255px;
+  padding: 30px 53px 30px 24px;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  gap: 8px;
+}
+
+.card-inner-frame {
+  width: 304px;
+  height: 195px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.status-badge-container {
+  width: 115px;
+  height: 27px;
+  padding: 6px 16px 6px 16px;
+  border-radius: 40px;
+  display: flex;
+  gap: 8px;
+  background: #848484;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.badge p {
+  /* width: 63px; */
+  /* height: 15px; */
+  font-family: "Ubuntu";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: white;
+}
+
+.card-details-container {
+  width: 381px;
+  height: 255px;
+  padding: 30px 53px 30px 24px;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  gap: 8px;
+}
+
+.card-title {
+  /* //styleName: Desktop/P1; */
+  font-family: "Ubuntu";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 304px;
+  height: 27px;
+  color: #212121;
+}
+
+.card-address-container {
+  width: 304px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-address-container p {
+  margin: 0;
+  width: 282.87px;
+  height: 44px;
+  left: 21.13px;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #595959;
+}
+
+.rent-details-container {
+  width: 239px;
+  height: 30px;
+  top: 128px;
+  display: flex;
+  gap: 16px;
+}
+
+.rooms-details {
+  width: 46px;
+  height: 30px;
+  top: 128px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rooms-details div {
+  margin: 0;
+  width: 9px;
+  height: 22px;
+  top: 134px;
+  left: 37px;
+  /* //styleName: Desktop/P2; */
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1a295b;
+}
+
+.baths-details {
+  width: 46px;
+  height: 30px;
+  top: 128px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.baths-details div {
+  margin: 0;
+  width: 9px;
+  height: 22px;
+  top: 134px;
+  left: 37px;
+  /* //styleName: Desktop/P2; */
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1a295b;
+}
+
+.area-details {
+  width: 105px;
+  height: 30px;
+  top: 128px;
+  left: 134px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.area-details div {
+  margin: 0;
+  width: 68px;
+  height: 22px;
+  top: 134px;
+  left: 37px;
+  /* //styleName: Desktop/P2; */
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #1a295b;
+}
+
+.rent-value-container {
+  width: 304px;
+  height: 27px;
+
+  font-family: "Ubuntu";
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.apartment-type-container {
+  width: 93px;
+  height: 38px;
+  padding: 8px;
+  border-radius: 4px;
+  gap: 8px;
+  background: #ffffff;
+  position: absolute;
+  top: 170px;
+  left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.apartment-type-text {
+  font-family: "Ubuntu";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.red {
+  color: red;
+}
+.blue {
+  color: #2094e9;
+}
+.yellow {
+  color: #eb8600;
+}
+.grey-bg {
+  background: #848484;
+}
+
+.blue-bg {
+  color: #2094e9;
+}
+
+.green-bg {
+  background: #407e47;
+}
+.red-bg {
+  background-color: red;
+}
+.blue-bg {
+  background-color: #2094e9;
+}
+.yellow-bg {
+  background-color: #eb8600;
+}
